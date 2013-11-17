@@ -1,5 +1,5 @@
 TARGET  := lib/libv4l2.a
-SRCS    := src/ccvt.c src/v4l2.c
+SRCS    := src/v4l2.c
 OBJS    := ${SRCS:.c=.o} 
 CC	= g++
 CCFLAGS = -Wall -I include 
